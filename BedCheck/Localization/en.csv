@@ -1,0 +1,78 @@
+key,Before Bed Checklist
+title,Before Bed Checklist
+intro,Lists detected machines; detailed checks currently support furnaces, moisture farms and purifiers.
+broken,Machine is broken
+unknown,Machine state unavailable
+power,Local battery missing or insufficient; other power mods may change this
+no_vessel,No water vessel installed
+full_vessel,Water vessel has no free capacity
+farm_ready,Battery and water capacity checks passed; production is not guaranteed
+furnace_power_only,Battery check passed; materials and output are not checked
+none,No owned supported machines found
+machine_header,#{0} {1}
+power_unknown,Power slot unavailable
+no_battery,No local power source installed
+power_ok,Local power check passed: {0} kJ per cycle
+power_low,Local power insufficient: {0} kJ per cycle; external power mods may change this
+vessel_space,Water vessel free space: {0} mL
+metal_count,Smelting input: {0} / {1} scrap or ore items
+junk_count,Recycling input: {0} / {1} junk items
+materials_low,Not enough input materials
+furnace_limit,Input check excludes transfers and recipe changes by other mods.
+locate,Locate machine
+rules_pending,Detailed checks are not yet supported; slot counts only.
+inventory_unknown,Slot layout unavailable
+area,Area {0}
+inventory_count,{0}: {1} item objects
+locate_help,Click Locate machine to mark it. Move this window if it is in the way.
+locate_shown,Marked: {0}. Move this window if you cannot see it.
+locate_hidden,The machine is not visible. Open the window containing it first.
+locate_unavailable,Cannot locate this machine right now.
+battery_snapshot,Stored energy: {0} kJ; cycle needs {1} kJ (no prediction of battery swaps or nightly changes)
+special_power,Cycle needs {0} kJ; check this special power source manually
+purifier_empty_slot,No liquid container in the purifier
+purifier_empty_liquid,The purifier container has no liquid
+purifier_vessel,Liquid container present; purification and operation conditions not checked
+issues_intro,Machine checks at closing:
+no_issues,No problems found in the checks performed.
+coverage,Checked {0} machines; {1} identified machines are not yet supported. Some conditions still need a manual check.
+battery_low_snapshot,Current energy {0} kJ; cycle needs {1} kJ.
+materials_metal_low,Insufficient smelting input: {0} / {1} scrap or ore items.
+materials_recycle_low,Insufficient input: {0} / {1} scrap or ore items and {2} / 6 junk items.
+printer_chip_missing,Input present but printer chip is missing.
+printer_material_missing,Not enough printing materials. Check the input area.
+hydro_water_missing,Seed is present but no nutrient vessel is installed.
+hydro_water_empty,The nutrient vessel is empty.
+hydro_seed_missing,Vessel is present but no seed is installed.
+desequencer_chip_missing,Input present but chip missing.
+desequencer_input_missing,Chip present but input slot empty.
+evaporator_empty,The evaporator vessel is empty.
+hydro_water_insufficient,Not enough nutrient liquid for one growing cycle.
+ras_water_missing,There are live animals in the tank but no water.
+dna_seed_missing,A gene input disk is installed but no seed is present.
+recharger_power_off,The charger contains items but the shop has no power.
+blender_container_missing,The blender has ingredients but no container.
+blender_container_full,The blender container is full.
+fountain_no_liquid,The fountain water sources are empty or have no container.
+ras_feeder_empty,There are live animals in the system but the feeder is empty.
+chem_empty_vessel,The chemical finisher container is empty.
+reactor_critical,Reactor integrity: {0}; nightly decay: {1}. It may explode at the next settlement. Repair it soon.
+reactor_no_power,Reactor integrity is {0}, too low to supply power.
+reactor_power_risk,Reactor integrity: {0}; nightly decay: {1}. It may stop supplying power after the next settlement.
+butcher_output_full,The auto-butcher output is full and may prevent further harvesting.
+chem_recipe_not_ready,The liquid volume or dryness does not meet the selected recipe requirements.
+heater_no_vessel,The heating plate is on but has no container.
+heater_empty_vessel,The heating plate is on but the container is empty.
+bottle_output_full,The bottle printer output is full.
+cage_feeder_empty,There are live animals in the cage but the feeder is empty.
+box_output_full,The box dispenser output is full.
+converter_off,The current converter is off.
+hypertech_low,Hypertech battery output is {0} kJ per use; the machine needs {1} kJ.
+powerblock_off,A rechargeable device is next to the power block but the shop has no power.
+power_uncertain,Unable to confirm this machine’s power status; check it manually.
+converter_uncertain,The current converter is on; check overnight power and outages manually.
+check_uncertain,Some checks could not be completed; inspect this machine manually.
+no_checked_machines,No machines available to check.
+auto_refresh_help,The checklist updates automatically about every two seconds.
+unsupported_machine,Detailed checks are not yet supported for this device; inspect it manually.
+scan_incomplete,Some items could not be read. This checklist may be incomplete; inspect manually.

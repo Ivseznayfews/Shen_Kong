@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest><ID>bedcheck</ID><Name>睡前生产检查</Name><Author>Local Developer</Author><ModVersion>1.2.4</ModVersion><Description>关店时检查部分原版机器，并在清单打开时自动更新结果。列出尚未支持检查的已识别设备，并提示供电状态的不确定性；部分状态仍需手动检查。</Description><GameVersions><Version>0.46D</Version></GameVersions><Prerequisites/><Assemblies><Assembly>BedCheck.dll</Assembly></Assemblies><Capabilities/></Manifest>

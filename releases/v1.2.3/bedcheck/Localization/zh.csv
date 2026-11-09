@@ -1,0 +1,78 @@
+key,睡前生产检查
+title,睡前生产检查
+intro,列出已识别机器；详细诊断目前支持熔炉、水分收集器和净水器。
+broken,机器已损坏
+unknown,无法读取机器状态
+power,本机电源不足或未安装电池；其他供电模组可能改变结果
+no_vessel,未安装储水容器
+full_vessel,储水容器没有剩余容量
+farm_ready,电池和储水空间检查通过；不保证夜间一定产出
+furnace_power_only,电池检查通过；材料和产出条件尚未检查
+none,未找到已拥有的受支持机器
+machine_header,#{0} {1}
+power_unknown,无法读取电源槽
+no_battery,未安装电源
+power_ok,本机电源检查通过：每次需要 {0} kJ
+power_low,本机电源不足：每次需要 {0} kJ；外部供电模组可能改变结果
+vessel_space,储水容器剩余空间：{0} 毫升
+metal_count,熔炼材料：{0} / {1} 件废金属或矿石
+junk_count,垃圾处理材料：{0} / {1} 件垃圾
+materials_low,材料不足：请检查输入栏
+furnace_limit,材料检查不包含运输过程及其他模组对配方的修改。
+locate,定位机器
+rules_pending,详细诊断尚未支持，以下仅显示当前槽位内容数量。
+inventory_unknown,无法读取槽位布局
+area,区域 {0}
+inventory_count,{0}：{1} 个物品对象
+locate_help,点击“定位机器”可标记设备；如果被挡住，可以拖动窗口。
+locate_shown,已标记：{0}。如果看不到，请拖动窗口。
+locate_hidden,机器不在当前画面中，请先打开它所在的窗口。
+locate_unavailable,暂时无法定位这台机器。
+battery_snapshot,电源当前电量 {0} kJ；单次需求 {1} kJ（不预测自动换电和夜间变化）
+special_power,单次需求 {0} kJ；特殊电源状态需手动确认
+purifier_empty_slot,净水器未放入液体容器
+purifier_empty_liquid,净水器容器中没有液体
+purifier_vessel,已放入有液体的容器；净化效果和可运行状态尚未检查
+issues_intro,关店时的机器检查结果：
+no_issues,已检查的项目没有发现问题。
+coverage,已检查 {0} 台机器；已识别的 {1} 台机器暂不支持。部分状态仍需自行检查。
+battery_low_snapshot,当前电量 {0} kJ，单次需求 {1} kJ。
+materials_metal_low,熔炼材料不足：废金属或矿石 {0} / {1} 件。
+materials_recycle_low,材料不足：废金属或矿石 {0} / {1} 件，垃圾 {2} / 6 件。
+printer_chip_missing,输入栏有物品，但没有安装打印芯片。
+printer_material_missing,打印材料不足，请检查输入栏。
+hydro_water_missing,已放种子，但未放营养液容器。
+hydro_water_empty,营养液容器是空的。
+hydro_seed_missing,已放容器，但没有种子。
+desequencer_chip_missing,已放输入物品，但缺少芯片。
+desequencer_input_missing,已放芯片，但输入槽为空。
+evaporator_empty,蒸发器中的液体容器为空。
+hydro_water_insufficient,营养液不足，无法完成一个生长周期。
+ras_water_missing,鱼缸里有活体，但水槽是空的。
+dna_seed_missing,已放入基因输入磁盘，但没有放种子。
+recharger_power_off,充能器里有物品，但店铺没有供电。
+blender_container_missing,搅拌机里有原料，但没有放容器。
+blender_container_full,搅拌机的容器已满，无法继续装入液体。
+fountain_no_liquid,自动售水机的水源为空，或没有装入容器。
+ras_feeder_empty,养殖系统里有活体，但饲料机没有饲料。
+chem_empty_vessel,化学制剂成型机的容器是空的。
+reactor_critical,反应堆完整度 {0}，每晚损耗 {1}；下次结算时可能爆炸，请及时维修。
+reactor_no_power,反应堆完整度为 {0}，不足以供电。
+reactor_power_risk,反应堆完整度 {0}，每晚损耗 {1}；下次结算后可能无法供电。
+butcher_output_full,自动屠宰机输出区已满，可能无法继续收获。
+chem_recipe_not_ready,液体数量或干燥程度不符合所选配方的要求。
+heater_no_vessel,加热板已开启，但没有放容器。
+heater_empty_vessel,加热板已开启，但容器是空的。
+bottle_output_full,水瓶打印机的输出区已满。
+cage_feeder_empty,动物笼里有活体，但饲料机没有饲料。
+box_output_full,盒子分配器的输出区已满。
+converter_off,电流转换器未开启。
+hypertech_low,超科技电池单次输出 {0} kJ，机器需求 {1} kJ。
+powerblock_off,能量阵列旁有可充电设备，但店铺没有供电。
+power_uncertain,无法确认此机器的电源状态，请手动检查。
+converter_uncertain,电流转换器已开启；夜间供电及停电情况需要手动确认。
+check_uncertain,此机器的部分检查无法完成，请手动确认状态。
+no_checked_machines,没有找到可检查的机器。
+auto_refresh_help,清单约每两秒自动更新一次。
+unsupported_machine,此设备尚未支持详细检查，请手动确认状态。
+scan_incomplete,部分物品读取失败，本次清单可能不完整，请手动检查。
